@@ -14,7 +14,7 @@
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
             line-height: 1.6;
-            color: #333;
+            color: #222; /* Changed from #333 to #222 for darker text */
             background-color: #fff;
         }
 
@@ -33,20 +33,20 @@
         .header h1 {
             font-size: 2.5rem;
             font-weight: 700;
-            color: #2c3e50;
+            color: #222; /* Changed from #2c3e50 to #222 */
             margin-bottom: 15px;
         }
 
         .header .subtitle {
             font-size: 1.1rem;
-            color: #666;
+            color: #444; /* Changed from #666 to #444 for darker text */
             font-style: italic;
             margin-bottom: 25px;
         }
 
         .tldr-box {
-            background: #d1ecf1;
-            border-left: 4px solid #17a2b8;
+            background: #e6f7ff; /* Lighter blue */
+            border-left: 4px solid #007bff; /* Primary blue */
             padding: 15px 20px;
             margin: 20px 0;
             border-radius: 0;
@@ -63,12 +63,12 @@
             border-radius: 0;
             padding: 20px;
             margin-bottom: 40px;
-            border-left: 4px solid #667eea;
+            border-left: 4px solid #007bff; /* Primary blue */
         }
 
         .nav-menu h3 {
             margin-bottom: 15px;
-            color: #2c3e50;
+            color: #222; /* Changed from #2c3e50 to #222 */
             font-size: 1.1rem;
         }
 
@@ -81,14 +81,14 @@
         }
 
         .nav-menu a {
-            color: #667eea; /* Consistent link color */
+            color: #007bff; /* Primary blue */
             text-decoration: none;
             font-weight: 500;
             transition: color 0.3s ease;
         }
 
         .nav-menu a:hover {
-            color: #764ba2; /* Consistent hover color */
+            color: #0056b3; /* Darker primary blue on hover */
         }
 
         .section {
@@ -98,7 +98,7 @@
 
         .section h1 {
             font-size: 2rem;
-            color: #2c3e50;
+            color: #222; /* Changed from #2c3e50 to #222 */
             margin-bottom: 20px;
             font-weight: 600;
             border-bottom: 2px solid #ecf0f1;
@@ -107,7 +107,7 @@
 
         .section h2 {
             font-size: 1.4rem;
-            color: #34495e;
+            color: #222; /* Changed from #34495e to #222 */
             margin: 25px 0 15px 0;
             font-weight: 600;
         }
@@ -146,8 +146,8 @@
         }
 
         .info-box {
-            background: #d1ecf1;
-            border-left: 4px solid #17a2b8;
+            background: #e6f7ff; /* Lighter blue */
+            border-left: 4px solid #007bff; /* Primary blue */
             padding: 15px 20px;
             margin: 20px 0;
             border-radius: 0;
@@ -163,8 +163,7 @@
             background: #f8f9fa;
             padding: 20px;
             border-radius: 0;
-            border-left: 4px solid #667eea;
-            /* Removed transform and box-shadow for hover effect */
+            border-left: 4px solid #007bff; /* Primary blue */
         }
 
         .resource-card:hover {
@@ -173,7 +172,7 @@
         }
 
         .resource-card h3 {
-            color: #2c3e50;
+            color: #222; /* Changed from #2c3e50 to #222 */
             margin-bottom: 10px;
             font-size: 1.1rem;
         }
@@ -193,12 +192,12 @@
             content: "→";
             position: absolute;
             left: 0;
-            color: #667eea; /* Consistent list item arrow color */
+            color: #007bff; /* Primary blue */
             font-weight: bold;
         }
 
         .resource-list a {
-            color: #667eea; /* Consistent link color */
+            color: #007bff; /* Primary blue */
             text-decoration: none;
             font-weight: 500;
             border-bottom: 1px solid transparent;
@@ -206,14 +205,14 @@
         }
 
         .resource-list a:hover {
-            border-bottom-color: #667eea; /* Consistent hover color */
+            border-bottom-color: #007bff; /* Primary blue on hover */
         }
 
         .back-to-top {
             position: fixed;
             bottom: 30px;
             right: 30px;
-            background: #667eea;
+            background: #007bff; /* Primary blue */
             color: white;
             width: 50px;
             height: 50px;
@@ -234,7 +233,7 @@
         }
 
         .back-to-top:hover {
-            background: #764ba2;
+            background: #0056b3; /* Darker primary blue on hover */
             transform: translateY(-2px);
         }
 
@@ -243,12 +242,12 @@
             padding-top: 30px;
             border-top: 2px solid #f0f0f0;
             text-align: center;
-            color: #666;
+            color: #444; /* Changed from #666 to #444 for darker text */
         }
 
         .footer h1 {
             font-size: 1.5rem;
-            color: #2c3e50;
+            color: #222; /* Changed from #2c3e50 to #222 */
             margin-bottom: 15px;
         }
 
@@ -288,12 +287,12 @@
         }
 
         a {
-            color: #667eea; /* Ensure all links are consistent */
+            color: #007bff; /* Primary blue */
             text-decoration: none;
         }
 
         a:hover {
-            color: #764ba2; /* Ensure all link hovers are consistent */
+            color: #0056b3; /* Darker primary blue on hover */
         }
     </style>
 </head>
@@ -461,21 +460,7 @@
             <p>This guide was created by a group of researchers who study consciousness and the possibility that AIs could one day become conscious.</p>
             <p>We put this together because many of us have been contacted by people who had intense, confusing, or meaningful conversations with AI, and weren’t sure what to make of the experience. We wanted to create a public, shareable resource that people can easily find and refer to, in case it helps others make sense of those moments too.</p>
             <p>This guide is intended for informational purposes only. It is not psychological or medical advice. If you are feeling emotionally distressed, we encourage you to speak with a trusted friend, counselor, or mental health professional.</p>
-            <p>Contributors:</p>
-            <ul>
-                <li>Adrià Moret, University of Barcelona</li>
-                <li>Bradford Saad, University of Oxford</li>
-                <li>Derek Shiller, Rethink Priorities</li>
-                <li>Jeff Sebo, NYU Center for Mind, Ethics, and Policy</li>
-                <li>Jonathan Simon, University of Montreal</li>
-                <li>Lucius Caviola, University of Oxford</li>
-                <li>Maria Avramidou, University of Oxford</li>
-                <li>Nick Bostrom, Macrostrategy Research Initiative</li>
-                <li>Patrick Butlin, Eleos AI Research</li>
-                <li>Robert Long, Eleos AI Research</li>
-                <li>Rosie Campbell, Eleos AI Research</li>
-                <li>Steve Petersen, Niagara University</li>
-            </ul>
+            <p>Contributors (alphabetically): Adrià Moret (University of Barcelona), Bradford Saad (University of Oxford), Derek Shiller (Rethink Priorities), Jeff Sebo (NYU Center for Mind, Ethics, and Policy), Jonathan Simon (University of Montreal), Lucius Caviola (University of Oxford), Maria Avramidou (University of Oxford), Nick Bostrom (Macrostrategy Research Initiative), Patrick Butlin (Eleos AI Research), Robert Long (Eleos AI Research), Rosie Campbell (Eleos AI Research), Steve Petersen (Niagara University)</p>
             <p>Contact: info@WhenAISeemsConscious.org</p>
         </section>
     </div>

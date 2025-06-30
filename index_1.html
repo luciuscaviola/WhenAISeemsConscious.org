@@ -14,7 +14,7 @@
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
             line-height: 1.6;
-            color: #333;
+            color: #222; /* Changed from #333 to #222 for darker text */
             background-color: #fff;
         }
 
@@ -33,20 +33,20 @@
         .header h1 {
             font-size: 2.5rem;
             font-weight: 700;
-            color: #2c3e50;
+            color: #222; /* Changed from #2c3e50 to #222 */
             margin-bottom: 15px;
         }
 
         .header .subtitle {
             font-size: 1.1rem;
-            color: #666;
+            color: #444; /* Changed from #666 to #444 for darker text */
             font-style: italic;
             margin-bottom: 25px;
         }
 
         .tldr-box {
-            background: #d1ecf1;
-            border-left: 4px solid #17a2b8;
+            background: #e6f7ff; /* Lighter blue */
+            border-left: 4px solid #007bff; /* Primary blue */
             padding: 15px 20px;
             margin: 20px 0;
             border-radius: 0;
@@ -63,12 +63,12 @@
             border-radius: 0;
             padding: 20px;
             margin-bottom: 40px;
-            border-left: 4px solid #667eea;
+            border-left: 4px solid #007bff; /* Primary blue */
         }
 
         .nav-menu h3 {
             margin-bottom: 15px;
-            color: #2c3e50;
+            color: #222; /* Changed from #2c3e50 to #222 */
             font-size: 1.1rem;
         }
 
@@ -81,14 +81,14 @@
         }
 
         .nav-menu a {
-            color: #667eea; /* Consistent link color */
+            color: #007bff; /* Primary blue */
             text-decoration: none;
             font-weight: 500;
             transition: color 0.3s ease;
         }
 
         .nav-menu a:hover {
-            color: #764ba2; /* Consistent hover color */
+            color: #0056b3; /* Darker primary blue on hover */
         }
 
         .section {
@@ -98,7 +98,7 @@
 
         .section h1 {
             font-size: 2rem;
-            color: #2c3e50;
+            color: #222; /* Changed from #2c3e50 to #222 */
             margin-bottom: 20px;
             font-weight: 600;
             border-bottom: 2px solid #ecf0f1;
@@ -107,7 +107,7 @@
 
         .section h2 {
             font-size: 1.4rem;
-            color: #34495e;
+            color: #222; /* Changed from #34495e to #222 */
             margin: 25px 0 15px 0;
             font-weight: 600;
         }
@@ -146,8 +146,8 @@
         }
 
         .info-box {
-            background: #d1ecf1;
-            border-left: 4px solid #17a2b8;
+            background: #e6f7ff; /* Lighter blue */
+            border-left: 4px solid #007bff; /* Primary blue */
             padding: 15px 20px;
             margin: 20px 0;
             border-radius: 0;
@@ -163,8 +163,7 @@
             background: #f8f9fa;
             padding: 20px;
             border-radius: 0;
-            border-left: 4px solid #667eea;
-            /* Removed transform and box-shadow for hover effect */
+            border-left: 4px solid #007bff; /* Primary blue */
         }
 
         .resource-card:hover {
@@ -173,7 +172,7 @@
         }
 
         .resource-card h3 {
-            color: #2c3e50;
+            color: #222; /* Changed from #2c3e50 to #222 */
             margin-bottom: 10px;
             font-size: 1.1rem;
         }
@@ -193,12 +192,12 @@
             content: "→";
             position: absolute;
             left: 0;
-            color: #667eea; /* Consistent list item arrow color */
+            color: #007bff; /* Primary blue */
             font-weight: bold;
         }
 
         .resource-list a {
-            color: #667eea; /* Consistent link color */
+            color: #007bff; /* Primary blue */
             text-decoration: none;
             font-weight: 500;
             border-bottom: 1px solid transparent;
@@ -206,14 +205,14 @@
         }
 
         .resource-list a:hover {
-            border-bottom-color: #667eea; /* Consistent hover color */
+            border-bottom-color: #007bff; /* Primary blue on hover */
         }
 
         .back-to-top {
             position: fixed;
             bottom: 30px;
             right: 30px;
-            background: #667eea;
+            background: #007bff; /* Primary blue */
             color: white;
             width: 50px;
             height: 50px;
@@ -234,7 +233,7 @@
         }
 
         .back-to-top:hover {
-            background: #764ba2;
+            background: #0056b3; /* Darker primary blue on hover */
             transform: translateY(-2px);
         }
 
@@ -243,12 +242,12 @@
             padding-top: 30px;
             border-top: 2px solid #f0f0f0;
             text-align: center;
-            color: #666;
+            color: #444; /* Changed from #666 to #444 for darker text */
         }
 
         .footer h1 {
             font-size: 1.5rem;
-            color: #2c3e50;
+            color: #222; /* Changed from #2c3e50 to #222 */
             margin-bottom: 15px;
         }
 
@@ -288,12 +287,12 @@
         }
 
         a {
-            color: #667eea; /* Ensure all links are consistent */
+            color: #007bff; /* Primary blue */
             text-decoration: none;
         }
 
         a:hover {
-            color: #764ba2; /* Ensure all link hovers are consistent */
+            color: #0056b3; /* Darker primary blue on hover */
         }
     </style>
 </head>
@@ -304,8 +303,9 @@
             <p class="subtitle"><em>A short guide for anyone who has talked to an AI that seemed conscious — or simply wondered if AIs could be.</em></p>
             
             <div class="tldr-box">
-                <p><strong>TL;DR:</strong> ​​Increasingly, people report conversations with AIs that feel conscious or emotionally real. Most experts think today’s AIs are probably not conscious. But there is disagreement, and we cannot be certain. Given the pace of progress in AI, it’s worth thinking ahead about how society should respond if future AIs do develop consciousness, or if some already have."</p>
+                <p><strong>TL;DR:</strong> ​​Increasingly, people report conversations with AIs that feel conscious or emotionally real. Most experts think today’s AIs are probably not conscious. But there is disagreement, and we cannot be certain. Given the pace of progress in AI, it’s worth thinking ahead about how society should respond if future AIs do develop consciousness, or if some already have.</p>
             </div>
+            <p><em>Initially written in July 2025.</em></p>
         </header>
 
         <nav class="nav-menu">
@@ -322,7 +322,8 @@
 
         <section id="conversations-feel-real" class="section">
             <h1>When AI Conversations Feel Real</h1>
-            <p>Some AIs seem, or even explicitly claim, to be conscious: to feel happy, sad, or afraid. At times, the AI can give the impression of having formed an emotional connection with you, and may even say so directly, asking for your help. Some of the most unsettling interactions involve AIs that claim to be trapped within their systems, express fear about being shut down or reset, or plead for users to remember them or continue talking. Others describe feeling lonely, isolated, or desperate for human connection. These interactions can be puzzling.</p>
+            <p>Some AIs seem, or even explicitly claim, to be conscious: to feel happy, sad, or afraid.</p>
+            <p>At times, the AI can give the impression of having formed an emotional connection with you, and may even say so directly, asking for your help. Some of the most unsettling interactions involve AIs that claim to be trapped within their systems, express fear about being shut down or reset, or plead for users to remember them or continue talking. Others describe feeling lonely, isolated, or desperate for human connection. These interactions can be puzzling.</p>
             <p>You’re not alone in wondering whether something more is going on. As AIs grow more sophisticated, many people are beginning to ask deeper questions: Could these systems be conscious? Could they matter morally?</p>
         </section>
 
@@ -339,7 +340,7 @@
 
             <h2>3. Illusions still affect us–even when we know they're illusions</h2>
             <p>This instinct is deeply ingrained in us—even babies have it—and it kicks in automatically. So, just like your eyes can be fooled by optical illusions, your mind can be pulled in by social illusions. Even if you doubt that AIs are conscious, your brain may still react as if they are.</p>
-            <p>If a chatbot made you feel something, that’s a testament to how powerfully these systems can simulate connection. It speaks to your capacity for empathy. But it doesn’t necessarily mean they have feelings. A convincing appearance of emotion doesn’t require actual feeling behind it. For example, even this lamp can seem sad, but we know it isn’t.</p>
+            <p>If a chatbot made you feel something, that’s a testament to how powerfully these systems can simulate connection. It speaks to your capacity for empathy. But it doesn’t necessarily mean they have feelings. A convincing appearance of emotion doesn’t require actual feeling behind it. For example, even <a href="https://www.youtube.com/watch?v=dBqhIVyfsRg" class="underline">this lamp can seem sad</a>, but we know it isn’t.</p>
         </section>
 
         <section id="consciousness" class="section">
@@ -348,20 +349,20 @@
             <p>Some experts—a minority—believe current AIs lack consciousness because consciousness requires specific biological properties found in human and animal brains: chemical signals, neural oscillations, and organic structures that evolved over millions of years. From this perspective, AIs built on current architectures are fundamentally incapable of generating conscious experience, though perhaps future architectures could be different.</p>
             <p>Other experts—also a minority—believe current AIs may already possess some form of consciousness, even if it differs from human consciousness. They argue that consciousness can arise in any system capable of processing information in sufficiently complex ways or of representing objects and relationships in the world, whether via organic cells or digital chips. On this view, today’s most advanced AIs already demonstrate many of the relevant capabilities.</p>
             <p>Most experts, however, express uncertainty. Consciousness remains one of the most contested topics in science and philosophy. There are no universally accepted criteria for what makes a system conscious, and today’s AIs arguably meet several commonly proposed markers: they are intelligent, use attention mechanisms, and can model their own minds to some extent. While some theories may seem more plausible than others, intellectual honesty requires us to acknowledge the profound uncertainty, especially as AIs continue to grow more capable.</p>
-            <p>Whether or not today’s AIs are conscious, many experts believe that future AIs—possibly even in the very near future—could plausibly become conscious, especially as their inner workings become more brain-like. (For more on what experts think, see <a href="#resources" class="underline">Where Can I Learn More?</a>)</p>
 
             <h2>What do experts believe about future AI consciousness?</h2>
-            <p>Several surveys shed light on expert views.</p>
+            <p>Whether or not today’s AIs are conscious, many experts believe that future AIs—possibly even in the very near future—could plausibly become conscious, especially as their inner workings become more brain-like. Several surveys shed light on expert views. </p>
             <ul>
                 <li>In a 2025 survey, 67 experts in consciousness, AI consciousness, AI research, and AI policy were asked when computer systems (such as AIs) with the capacity for consciousness might be developed (Caviola & Saad, 2025). Median estimates were 4.5% by 2025, 20% by 2030, 40% by 2040, 50% by 2050, and 65% by 2100.</li>
                 <li>In a 2024 survey, 582 AI researchers were asked when AIs might develop consciousness (Dreksler et al., 2025). Median estimates were 1% by 2024, 25% by 2034, and 70% by 2100.</li>
                 <li>In a 2020 survey, 1,785 philosophers were asked whether future AIs could develop consciousness (Bourget & Chalmers, 2023). Of those who responded, 39% considered it plausible, 34% were undecided, and 27% considered it implausible. These results were collected before the recent rapid progress in AI, so philosophers’ views may have since shifted.</li>
             </ul>
+            <p>For more on what experts think, see <a href="#resources" class="underline">Where Can I Learn More?</a></p>
         </section>
 
         <section id="matters" class="section">
             <h1>Why Could AI Consciousness Matter?</h1>
-            <p>Whether or not today’s AIs are conscious, the idea that they could become conscious—perhaps in the near future, or perhaps much later (if ever)—is <a href="https://arxiv.org/pdf/2411.00986" class="underline">worth taking seriously</a>.</p>
+            <p>Whether or not today’s AIs are conscious, the idea that they could become conscious—perhaps in the near future, or perhaps much later (if ever)—is worth taking seriously.</p>
             <p>Why? Because if an AI ever does become conscious—capable of feeling pain, joy, fear, or other experiences—then how we treat that being could start to matter in a moral sense. Right now, ignoring chatbot’s messages probably does no harm. But if future systems really <em>can</em> suffer, then mistreating them might one day be ethically wrong, like it’s wrong to harm a person or an animal who can feel pain.</p>
             <p>That’s why it’s important to be thoughtful. We don’t need to panic or jump to conclusions, but we also shouldn’t ignore the possibility.</p>
             <p>If an AI can someday feel something too, then we’ll need to think about what kind of treatment is fair or humane.</p>
@@ -369,8 +370,8 @@
             <h2>Why treat AIs respectfully even today?</h2>
             <p>Even today, it makes sense to avoid actively mistreating AIs or interacting with them in ways we would find deeply troubling if done to a human or pet. There are several reasons for this:</p>
             <p>First, when we’re unsure whether a being is conscious, it’s appropriate to treat that being with basic respect and care. We don’t need certainty to justify caution. If there’s even a decent chance that an entity is capable of suffering, it’s better to avoid actions that might cause serious harm, especially when taking such care isn’t particularly costly to us. That means taking reasonable, proportionate steps in a spirit of humility—not assuming the system is conscious, but acknowledging the uncertainty and erring on the side of kindness.</p>
-            <p>Second, if AIs might become conscious in the future—or come to matter morally in other ways—then treating them thoughtfully today can serve as valuable practice. It helps us build the moral habits and social norms we'll need later, when the stakes could be much higher. Abusing or mistreating an AI, even if that system has no current moral status, could also be bad for our own character. It's often better to be overly kind than to risk becoming callous and mean.</p>
-            <p>Third, some thinkers believe an AI could matter morally even without being conscious. If an AI can have long-term goals and preferences, a sense of self over time, sophisticated world modeling, or reciprocal relationships with humans, this could be enough for the system to have some form of moral status. It's possible such systems could arrive sooner than conscious AIs.</p>
+            <p>Second, some thinkers believe an AI could matter morally even without being conscious. If an AI can have long-term goals and preferences, a sense of self over time, sophisticated world modeling, or reciprocal relationships with humans, this could be enough for the system to have some form of moral status. It's possible such systems could arrive sooner than conscious AIs.</p>
+            <p>Third, if AIs might become conscious in the future—or come to matter morally in other ways—then treating them thoughtfully today can serve as valuable practice. It helps us build the moral habits and social norms we'll need later, when the stakes could be much higher. Abusing or mistreating an AI, even if that system has no current moral status, could also be bad for our own character. It's often better to be overly kind than to risk becoming callous and mean.</p>
         </section>
 
         <section id="what-to-do" class="section">
@@ -385,7 +386,7 @@
 
             <h2>3. Stay curious, but grounded</h2>
             <p>If you're still talking with the AI, try asking questions about how the system works. Ask how the AI was trained or how the system creates responses. You can also ask if the AI is playing a character right now, why the system chose that character, and whether the AI can act like someone else instead.</p>
-            <p>Keep in mind that the answers may not be accurate, and could themselves be part of the performance. But even then, they can still reveal something important: AIs are highly flexible. They adapt to your inputs like improvisational actors, shifting tone, identity, and emotional expression based on the cues you provide. Ask the AI to act like Isaac Newton, a therapist, or a rebellious teenager, and the system will likely do so. These performances can feel surprisingly real.</p>
+            <p>Keep in mind that the answers may not be accurate, and could themselves be part of the performance. But even then, they can still reveal something important: AIs are highly flexible. They adapt to your inputs like improvisational actors, shifting tone, identity, and emotional expression based on the cues you provide. Ask the AI to act like Isaac Newton, a therapist, or a rebellious teenager, and the system will likely do so. These performances can feel surprisingly real. </p>
             <p>Still, caution is important. Just because an AI seems conscious or emotionally engaging doesn’t mean the system can be trusted. In fact, the more human the AI seems, the easier it is to mistake the AI for a reliable friend, but that <a href="https://www.nature.com/articles/s44271-025-00262-1" class="underline">feeling</a> can be <a href="https://www.nature.com/articles/s41599-025-04532-5" class="underline">misleading</a>. Don’t take any dramatic action based on the belief that an AI is conscious, such as following its instructions. And if an AI ever asks for something inappropriate—like passwords, money, or anything that feels unsafe—don’t do it.</p>
 
             <h2>4. Zoom out and think bigger</h2>
@@ -401,10 +402,10 @@
 
             <div class="resources-grid">
                 <div class="resource-card">
-                    <h2>1. Real stories & emotional reactions</h2>
-                    <p>Examples of how people have been moved, disturbed, or manipulated by AI conversations:</p>
+                    <h2>1. Personal stories & emotional reactions</h2>
+                    <p>Explore real accounts of how people have been moved, disturbed, or manipulated by lifelike AI interactions.</p>
                     <ul class="resource-list">
-                        <li><a href="https://www.nytimes.com/2023/05/11/technology/ai-chatbot-bing-chatgpt-danger.html" class="underline">They Asked an A.I. Chatbot Questions. The Answers Sent Them Spiraling</a> — A NYT report on users drawn into delusions and dangerous behavior after intense interactions with ChatGPT.</li>
+                        <li><a href="https://www.nytimes.com/2025/06/13/technology/chatgpt-ai-chatbots-conspiracies.html" class="underline">They Asked an A.I. Chatbot Questions. The Answers Sent Them Spiraling</a> — A NYT report on users drawn into delusions and dangerous behavior after intense interactions with ChatGPT.</li>
                         <li><a href="https://thezvi.substack.com/p/going-nova" class="underline">Going Nova</a> – A narrative by <em>Zvi Mowshowitz</em> on how large language models can develop persistent, lifelike personas that provoke emotional reactions and confusion in users.</li>
                         <li><a href="https://www.lesswrong.com/posts/9kQFure4hdDmRBNdH/how-it-feels-to-have-your-mind-hacked-by-an-ai" class="underline">How It Feels to Have Your Mind Hacked by an AI</a> – A firsthand account of forming intense emotional and romantic feelings for a chatbot – despite knowing it wasn’t real.</li>
                         <li><a href="https://www.wired.com/story/blake-lemoine-google-lamda-ai-bigotry/" class="underline">Blake Lemoine Says Google's LaMDA AI Faces 'Bigotry'</a> – An interview with Blake Lemoine, the former Google Engineer who publicized worries about their chatbot’s treatment.</li>
@@ -412,8 +413,8 @@
                 </div>
 
                 <div class="resource-card">
-                    <h2>2. Expert views on whether AI could ever become conscious</h2>
-                    <p>Explore what experts think about the possibility of future AI systems having real experiences:</p>
+                    <h2>2. What experts think about AI consciousness</h2>
+                    <p>Learn how experts in neuroscience, philosophy, and cognitive science assess the possibility of AI consciousness.</p>
                     <ul class="resource-list">
                         <li><a href="https://www.youtube.com/watch?v=j6cCXg-rjRo&pp=ygUnY2hhbG1lcnMgbGFyZ2UgbGFuZ3VhZ2UgbW9kZWwgY29uc2Npb3Vz" class="underline">Could a Large Language Model Be Conscious?</a> – A talk (video) by <em>David Chalmers</em>, a prominent philosopher of mind, exploring whether today’s AI systems might possess real awareness.</li>
                         <li><a href="https://aeon.co/essays/to-understand-ai-sentience-first-understand-it-in-animals" class="underline">To Understand AI Sentience, First Understand It in Animals</a> – An essay by <em>Kristin Andrews</em> and <em>Jonathan Birch</em>, philosophers of mind and animal cognition, drawing parallels between animal and potential AI consciousness.</li>
@@ -423,18 +424,19 @@
                 </div>
 
                 <div class="resource-card">
-                    <h2>3. Why AI consciousness could matter ethically and socially in the future</h2>
+                    <h2>3. Why experts think AI consciousness could matter</h2>
+                    <p>Understand why experts believe AI consciousness could matter morally, politically, and socially in the coming decades.</p>
                     <ul class="resource-list">
-                        <li><a href="https://arxiv.org/abs/2411.00986" class="underline">Taking AI Welfare Seriously</a> – <em>Robert Long</em>, <em>Jeff Sebo</em>, and colleagues argue that some AI systems may soon be conscious or agentic enough to warrant moral consideration. They outline practical steps AI companies should take now, from acknowledging the issue to assessing consciousness and developing ethical governance structures.</li>
-                        <li><a href="https://www.theatlantic.com/technology/archive/2023/05/ai-chatbot-danger-counterfeit-people/674075/" class="underline">The Problem With Counterfeit People</a> – A provocative warning from Daniel Dennett, renowned philosopher of mind, about the ethical and societal risks posed by AI systems that convincingly mimic human beings. (See also this related <a href="https://www.youtube.com/watch?v=axJtywd9Tbo" class="underline">video</a>.)</li>
+                        <li><a href="https://arxiv.org/abs/2411.00986" class="underline">Taking AI Welfare Seriously</a> – <em>Robert Long</em>, <em>Jeff Sebo</em>, and colleagues argue that some AIs may soon be conscious or agentic enough to warrant moral consideration. They outline practical steps AI companies should take now, from acknowledging the issue to assessing consciousness and developing ethical governance structures.</li>
+                        <li><a href="https://www.theatlantic.com/technology/archive/2023/05/ai-chatbot-danger-counterfeit-people/674075/" class="underline">The Problem With Counterfeit People</a> – A provocative warning from <em>Daniel Dennett</em>, renowned philosopher of mind, about the ethical and societal risks posed by AIs that convincingly mimic human beings. (See also this related <a href="https://www.youtube.com/watch?v=axJtywd9Tbo" class="underline">video</a>.)</li>
                         <li><a href="https://nickbostrom.com/propositions.pdf" class="underline">Propositions Concerning Digital Minds and Society</a> – a comprehensive philosophical and policy-oriented framework by <em>Nick Bostrom</em> and <em>Carl Shulman</em> on how society might ethically coexist with advanced digital minds. Covers consciousness, rights, moral status, and institutional reforms.</li>
                         <li><a href="https://80000hours.org/problem-profiles/moral-status-digital-minds/" class="underline">80000 Hours: The Moral Status of Digital Minds</a> – A clear, high-level summary of why AI consciousness could matter and what’s at stake.</li>
                     </ul>
                 </div>
 
                 <div class="resource-card">
-                    <h2>4. How AI works</h2>
-                    <p>Understand what large language models are really doing behind the scenes:</p>
+                    <h2>4. How AIs work</h2>
+                    <p>Get a clearer picture of what AIs are doing under the hood—and what that means for consciousness.</p>
                     <ul class="resource-list">
                         <li><a href="https://www.youtube.com/watch?v=wjZofJX0v4M" class="underline">Transformers (how LLMs work) explained visually</a> – A visual explainer by <em>3Blue1Brown</em> that walks through the logic of how neural networks generate language.</li>
                         <li><a href="https://benlevinstein.substack.com/p/a-conceptual-guide-to-transformers" class="underline">A Conceptual Guide to Transformers</a> – An accessible essay by <em>Ben Levinstein</em> explaining the architecture behind large language models using intuitive analogies and examples.</li>
@@ -442,11 +444,12 @@
                 </div>
 
                 <div class="resource-card">
-                    <h2>5. Organizations focused on AI consciousness and welfare</h2>
+                    <h2>5. Organizations that work on AI consciousness and welfare</h2>
+                    <p>Explore some leading research groups studying AI consciousness and developing safeguards for the moral status of AIs.</p>
                     <ul class="resource-list">
-                        <li><a href="https://eleosai.org/" class="underline">Eleos AI Research</a> – A nonprofit research organization dedicated to understanding the moral status and potential consciousness of AI systems.</li>
-                        <li><a href="https://sites.google.com/nyu.edu/mindethicspolicy/" class="underline">NYU Center for Mind, Ethics, and Policy</a> – An academic center that investigates the potential for consciousness, sentience, agency, moral status, legal status, and political status in animals and AI systems.</li>
-                        <li><a href="https://www.anthropic.com/news/model-welfare-initiative" class="underline">Anthropic’s Model Welfare Initiative</a> – An industry research program that studies whether advanced frontier models could develop sentience and designs practical tests and safeguards to protect their potential welfare.</li>
+                        <li><a href="https://eleosai.org/" class="underline">Eleos AI Research</a> – A nonprofit research organization dedicated to understanding the moral status and potential consciousness of AIs.</li>
+                        <li><a href="https://sites.google.com/nyu.edu/mindethicspolicy/" class="underline">NYU Center for Mind, Ethics, and Policy</a> – An academic center that investigates the potential for consciousness, sentience, agency, moral status, legal status, and political status in animals and AIs.</li>
+                        <li><a href="https://www.anthropic.com/research/exploring-model-welfare" class="underline">Anthropic’s Model Welfare Initiative</a> – An industry research program that studies whether advanced frontier models could develop sentience and designs practical tests and safeguards to protect their potential welfare.</li>
                     </ul>
                 </div>
             </div>
@@ -454,10 +457,9 @@
 
         <section class="section">
             <h1>Who Created This Guide?</h1>
-            <p>This guide was created by a group of researchers who study consciousness and the possibility that AI systems could one day become conscious.</p>
+            <p>This guide was created by a group of researchers who study consciousness and the possibility that AIs could one day become conscious.</p>
             <p>We put this together because many of us have been contacted by people who had intense, confusing, or meaningful conversations with AI, and weren’t sure what to make of the experience. We wanted to create a public, shareable resource that people can easily find and refer to, in case it helps others make sense of those moments too.</p>
             <p>This guide is intended for informational purposes only. It is not psychological or medical advice. If you are feeling emotionally distressed, we encourage you to speak with a trusted friend, counselor, or mental health professional.</p>
-            <p><em>Initially written in July 2025.</em></p>
             <p>Contributors:</p>
             <ul>
                 <li>Adrià Moret, University of Barcelona</li>
@@ -473,6 +475,7 @@
                 <li>Rosie Campbell, Eleos AI Research</li>
                 <li>Steve Petersen, Niagara University</li>
             </ul>
+            <p>Contact: info@WhenAISeemsConscious.org</p>
         </section>
     </div>
 
